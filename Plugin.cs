@@ -31,6 +31,7 @@ public class Plugin : BaseUnityPlugin
     public static ConfigEntry<bool> EnableWaveSkip;
 
     public static ConfigEntry<float> CustomWalkSpeed;
+    public static ConfigEntry<bool> EnableCustomWalkSpeed;
 
     public static ConfigEntry<bool> NoBuildingBlock;
 
@@ -55,6 +56,7 @@ public class Plugin : BaseUnityPlugin
         EnableWaveSkip = Config.Bind("Host", "Enable custom wave skip", false, "Enables or not the custom wave skip value");
 
         CustomWalkSpeed = Config.Bind("Client", "Custom walk speed", 8f, new ConfigDescription("You can go as fast as you want! Default is around 8.", new AcceptableValueRange<float>(0.01f, 100f)));
+        EnableCustomWalkSpeed = Config.Bind("Client", "Enable custom walk speed", false, "Enable or not your custom walk speed value");
 
         NoBuildingBlock = Config.Bind("Host", "No building block", false, "Removes building limits.");
 
@@ -154,6 +156,10 @@ class InfiniteAmmoPatcher                                               //Just r
 [HarmonyPatch(typeof(ZS_PlayerControl), "MovementSpeed", MethodType.Getter)]                //Speedhack mod
 class PlayerSpeedPatcher
 {
+    static bool Prepare()
+    {
+        return Plugin.EnableCustomWalkSpeed.Value;
+    }
     static void Postfix(ref float __result)
     {
         __result = Plugin.CustomWalkSpeed.Value;
@@ -163,6 +169,10 @@ class PlayerSpeedPatcher
 [HarmonyPatch(typeof(ZS_BuildingManager), "CheckIfCoordinatesOkay")]                        //Buidling blocked remover (bad)
 class PatchNoBuildingBlocked
 {
+    static bool Prepare()
+    {
+        return Plugin.NoBuildingBlock.Value;
+    }
     static bool Prefix(ref bool __result)
     {
         __result = true;
@@ -177,7 +187,6 @@ class betterGodModePatcher                                                      
     {
         if(player==null && Plugin.EnableGodmode.Value) //Not a damage by a player but TO a player
         {
-            Plugin.Logger.LogInfo("Godmode patcher was here");
             damage = 0f;
         }
     }
