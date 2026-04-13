@@ -1,5 +1,5 @@
-﻿## imcheat : BepInEx cheat plugin for Ultimate Zombie Defence 1
-This cheat plugin does things that no other cheats do. It is perfect for playing Ultimate Zombie Defence like a sandbox game, fully compatible with multiplayer.
+﻿## imcheat : BepInEx cheat plugin for Ultimate Zombie Defense 1
+This cheat plugin does things that no other cheats do. It is perfect for playing Ultimate Zombie Defense like a sandbox game, fully compatible with multiplayer.
 
 **🔧 Features :**
 
