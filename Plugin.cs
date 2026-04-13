@@ -35,9 +35,6 @@ public class Plugin : BaseUnityPlugin
 
     public static ConfigEntry<bool> NoBuildingBlock;
 
-    public static ConfigEntry<float> CustomShotPerSecond;
-    public static ConfigEntry<bool> EnableCustomShotPerSecond;
-
     public static ConfigEntry<bool> EnableGodmode;
 
     public static ConfigEntry<bool> InfiniteDamage;
@@ -59,9 +56,6 @@ public class Plugin : BaseUnityPlugin
         EnableCustomWalkSpeed = Config.Bind("Client", "Enable custom walk speed", false, "Enable or not your custom walk speed value");
 
         NoBuildingBlock = Config.Bind("Host", "No building block", false, "Removes building limits.");
-
-        CustomShotPerSecond = Config.Bind("Unlisted", "Shots/second", 100f, "How many bullets are shot per second, applies to all weapons");
-        EnableCustomShotPerSecond = Config.Bind("Unlisted", "Enable custom shots/second value", true, "Enable or not the custom value of shot/s.");
 
         EnableGodmode = Config.Bind("Host", "Godmode", false, "Enables or not godmode (Become invincile)");
 
