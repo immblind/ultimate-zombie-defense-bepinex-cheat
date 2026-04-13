@@ -27,3 +27,6 @@ Just like any bepinex plugin installation :
  6. Press **F1 to open the configuration menu at any time** ; please note that some cheats modifications like custom wave skip require restarting the game to take effect.
 
  🚧 The plugin may receive updates with additional mods. Feel free to suggest some !
+
+ Preview of the [ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager/releases) plugin with imcheat:
+<img width="649" height="623" alt="image" src="https://github.com/user-attachments/assets/04729daf-8b4f-42dd-8db7-a91410294f4d" />
