@@ -13,11 +13,11 @@ This cheat plugin does things that no other cheats do. It is perfect for playing
  - Disable building block
  - force Halloween exclusive content
 
-**🏗 Planned features :**
+  🚨 These features **only work if you are the game host** and have the plugin, or **if you and the host** have the plugin ; exeptions are **speedhack** and **infinite bullets** which should always work. It is recommanded for all players in the lobby to have the plugin installed for smoother experience.
+  
+  **🏗 Planned features :**
  - Force build mode (build anytime)
  - Custom weapons fire rate
-
-  🚨 These features **only work if you are the game host** and have the plugin, or **if you and the host** have the plugin ; exeptions are **speedhack** and **infinite bullets** which should always work. It is recommanded for all players in the lobby to have the plugin installed for smoother experience.
 
 ## 🚀 How to install :
 Just like any bepinex plugin installation :
