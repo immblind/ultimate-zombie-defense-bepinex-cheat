@@ -1,5 +1,5 @@
 ﻿## imcheat : BepInEx cheat plugin for Ultimate Zombie Defense 1
-imcheat is the most advanced sandbox plugin out there.It is currently in beta and will receive a lot of crazy new features.
+imcheat is the most advanced open-source sandbox plugin out there. It is currently in beta and will receive a lot of crazy new features.
 
 **🔧 Features :**
 
