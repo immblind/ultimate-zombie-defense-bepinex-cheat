@@ -13,7 +13,7 @@ This cheat plugin does things that no other cheats do. It is perfect for playing
  - Disable building block
  - force Halloween exclusive content
 
-**🏗 Planned features : **
+**🏗 Planned features :**
  - Force build mode (build anytime)
  - Custom weapons fire rate
 
