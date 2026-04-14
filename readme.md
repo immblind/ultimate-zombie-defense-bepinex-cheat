@@ -1,5 +1,5 @@
 ﻿## imcheat : BepInEx cheat plugin for Ultimate Zombie Defense 1
-This cheat plugin does things that no other cheats do. It is perfect for playing Ultimate Zombie Defense like a sandbox game, fully compatible with multiplayer.
+imcheat is the most advanced sandbox plugin out there.It is currently in beta and will receive a lot of crazy new features.
 
 **🔧 Features :**
 
@@ -18,6 +18,7 @@ This cheat plugin does things that no other cheats do. It is perfect for playing
   **🏗 Planned features :**
  - Force build mode (build anytime)
  - Custom weapons fire rate
+ - other...
 
 ## 🚀 How to install :
 Just like any bepinex plugin installation :
