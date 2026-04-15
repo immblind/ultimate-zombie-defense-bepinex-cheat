@@ -1,9 +1,10 @@
-﻿## imcheat : BepInEx cheat plugin for Ultimate Zombie Defense 1
-imcheat is the most advanced open-source sandbox plugin out there. It is currently in beta and will receive a lot of crazy new features.
+﻿# imcheat : BepInEx cheat plugin for Ultimate Zombie Defense 1
+### imcheat is the most advanced open-source sandbox plugin out there. It is currently in beta and will receive a lot of crazy new features.
 
-**🔧 Features :**
+### 🔧 Features :
 
- - Godmode
+ - **Godmode**
+ - **Force build mode (build anytime)**
  - Infinite bullet damage
  - Wave skipper
  - Infinite money
@@ -12,15 +13,16 @@ imcheat is the most advanced open-source sandbox plugin out there. It is current
  - Infinite build count limit
  - Disable building block
  - force Halloween exclusive content
+ 
 
-  🚨 These features **only work if you are the game host** and have the plugin, or **if you and the host** have the plugin ; exeptions are **speedhack** and **infinite bullets** which should always work. It is recommanded for all players in the lobby to have the plugin installed for smoother experience.
+  🚨 These features **only work if you are the game host** and have the plugin, or **if you and the host** have the plugin ; exeptions are **speedhack**, **infinite bullets** and **Force build mode** which should always work. It is recommanded for all players in the lobby to have the plugin installed for smoother experience.
   
   **🏗 Planned features :**
- - Force build mode (build anytime)
+ - ~~Force build mode (build anytime)~~ (Added)
  - Custom weapons fire rate
  - other...
 
-## 🚀 How to install :
+### 🚀 How to install :
 Just like any bepinex plugin installation :
 
  1. Find the game root folder. For Steam you can do : 
@@ -33,6 +35,5 @@ Just like any bepinex plugin installation :
 
  🚧 The plugin may receive updates with additional features. Feel free to suggest some !
 
-## Preview of imcheat config ui with [ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager/releases) plugin:
- 
-<img width="649" height="623" alt="image" src="https://github.com/user-attachments/assets/04729daf-8b4f-42dd-8db7-a91410294f4d" />
+## Preview of imcheat v1.0.2 config ui with [ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager/releases) plugin:
+<img width="615" height="475" alt="image" src="https://github.com/user-attachments/assets/2526d0fc-7d8d-47d7-9461-857888ad969f" />
